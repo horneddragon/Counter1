@@ -1,14 +1,18 @@
-<!-- {{myName}}
+ {{myName}}
+<br/>
 {{City}}
+<br/>
 {{gpa}}
 {{isindiancitizen}}
 {{ myUserObject.title}}
 {{ myLevels[1]}} -->
-<!-- <br/>
+ <br/>
 value at 5th : {{ myLevels[5]}}
 <br/>
 value at 4th : {{ myLevels[4]}}
 <br/>
 length of array is : {{myLevels.length}}
-<br/> -->
-my city is : {{myUserObject.myHomeAddressObject.City}}
+<br/>
+my city is : {{myUserObject.myAddressesObject.myHomeAddressObject.City}}
+<br/>
+temp is : {{myUserObject?.myAddressesObject1?.myHomeAddressObject?.temp}}
